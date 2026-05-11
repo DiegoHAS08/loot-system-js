@@ -1,0 +1,70 @@
+:root {
+    --common: #b0b0b0;
+    --rare: #4b69ff;
+    --epic: #8847ff;
+    --legendary: #eb4b4b;
+    --bg: #0f0f0f;
+}
+
+body {
+    background: var(--bg);
+    color: white;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.app {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.display-area {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.card {
+    width: 180px;
+    height: 240px;
+    border: 3px solid #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card.animate { transform: scale(1.1) rotate(5deg); }
+
+/* Cores de Raridade */
+.common { border-color: var(--common); color: var(--common); box-shadow: 0 0 15px var(--common); }
+.rare { border-color: var(--rare); color: var(--rare); box-shadow: 0 0 15px var(--rare); }
+.epic { border-color: var(--epic); color: var(--epic); box-shadow: 0 0 15px var(--epic); }
+.legendary { border-color: var(--legendary); color: var(--legendary); box-shadow: 0 0 25px var(--legendary); }
+
+.actions button {
+    padding: 12px 25px;
+    margin: 5px;
+    background: #222;
+    color: #4caf50;
+    border: 1px solid #4caf50;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.actions button:hover { background: #4caf50; color: #000; }
+
+.inventory {
+    margin-top: 30px;
+    text-align: left;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
