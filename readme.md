@@ -11,7 +11,3 @@ Um simulador de sistema de recompensas (Loot System) desenvolvido com foco em l�
 - **Lógica de Drop:** Implementação de um algoritmo de "Weighted Random" (Probabilidade Acumulada) para garantir que itens comuns saiam mais que lendários.
 - **Persistência de Dados:** (Sugestão: adicione LocalStorage para salvar o inventário).
 - **UX/UI:** Feedback visual imediato com animações CSS e sistema de raridade por cores.
-
-## 🛠️ Como rodar o projeto
-1. Clone o repositório: `git clone https://github.com/SEU_USUARIO/tactical-drop-sim.git`
-2. Abra o arquivo `index.html` no seu navegador.
