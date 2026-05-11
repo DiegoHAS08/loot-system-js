@@ -1,4 +1,4 @@
-# 🎯 Tactical Drop Simulator
+# 🎯 Loot System Js
 
 Um simulador de sistema de recompensas (Loot System) desenvolvido com foco em lógica de probabilidade e manipulação dinâmica de interface.
 
